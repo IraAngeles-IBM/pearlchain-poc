@@ -76,12 +76,12 @@ oc expose deployment mssql-poc --type="NodePort" --port=1433
 
 1) Install pgAdmin
 2) Install pgLoader
-3) Install PostgreSQL on IBM Cloud [ IMB Developer Tutorial for Installing Postgres](https://developer.ibm.com/tutorials/living-on-the-cloud-2)
+3) Install PostgreSQL on IBM Cloud [ IBM Developer Tutorial for Installing Postgres](https://developer.ibm.com/tutorials/living-on-the-cloud-2)
 4) Run following commands to transfer file data from MSSQL to PostgreSQL.
 ```console
 pgloader mssql://sa:<yourMSSQlpassword>@<msql path> pgsql://postgres:<yourPGSQLPassword>@<pgsql path>
 ```
-* **For more details on PostgreSQL database, please visit:** [ IMB Developer Tutorial](https://gist.github.com/timroster/b0fbc0b7054e573226600ba5bf5bdbb4)
+* **For more details on PostgreSQL database, please visit:** [ IBM Developer Tutorial](https://gist.github.com/timroster/b0fbc0b7054e573226600ba5bf5bdbb4)
 
 ## <a href=https://github.com/Sherpa99/pearlchain-poc/blob/master/docs/spring_boot_app.md> Java Application Docs </a>
 
