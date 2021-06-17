@@ -8,11 +8,8 @@
 
 * **Perform following steps on MSSQL container**
 
-1) Install DbVisualizer 
-2) Create secret
-```console
-oc create secret generic mssql --from-literal=SA_PASSWORD="yourPassword"
-```
+1) Install DbVisualizer or any database viewer
+2) Install MSSQL
 3) Create a deployment object YAML file  
 ```console 
 apiVersion: extensions/v1beta1
@@ -84,4 +81,3 @@ pgloader mssql://sa:<yourMSSQlpassword>@<msql path> pgsql://postgres:<yourPGSQLP
 * **For more details on PostgreSQL database, please visit:** [ IMB Developer Tutorial](https://gist.github.com/timroster/b0fbc0b7054e573226600ba5bf5bdbb4)
 
 ## <a href=https://github.com/Sherpa99/pearlchain-poc/blob/master/docs/spring_boot_app.md> Java Application Docs </a>
-
